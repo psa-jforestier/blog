@@ -22,6 +22,7 @@
 ## Download an APK
 - Use a trusted APK source to download the APK you want to install
   - For example, go to https://apkcombo.com/fr/downloader/#package=com.dragonbox.School&device=tablet&sdk=29&arches=arm64-v8a&dpi=160&lang=fr to download the APK of "Login Access: DB Les Noums" for the aarch64 with 160dpi in French.
+  - Or use the official APK from the editor https://assets.dragonbox.no/2024/Software/DB_School_2024.0.5.150.universal.apk
 - If the APK is in XAPK format, unpack every APK that are inside the XAPK
   - With the previous example, you will find inside the XAPK, the following files : "com.dragonbox.School.apk", "config.arm64_v8a.apk" and "UnityDataAssetPack.apk"
     
