@@ -1,4 +1,4 @@
-# rtl_868 for Windows : receiving LaCrosse TX29 weather data
+# rtl_868 for Windows - receiving LaCrosse TX29 weather data
 
 This article is a part of a whole global project : build my own weather station, based on Lacrosse weather sensor. 
 For this project, I have to build a software decoder to retreive weather data from the radio sensor. 
