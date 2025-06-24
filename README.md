@@ -10,3 +10,4 @@
 | 2023 | [KbdAZER - Pilote clavier Windows avec des trucs cools](docs/KbdAZER - Pilote clavier Windows avec des trucs cools.md)
 | 2024 | [Install anything on a SQOOL tablet](docs/Install anything on a SQOOL tablet.md)
 | 2025 | [SFR Box 7 - acces aux info via lign de commande.md](docs/SFR Box 7 - acces aux info via lign de commande.md)
+|      | [AWS EC2 - Reset Linux password to get login shell again](docs/AWS EC2 - Reset Linux password to get login shell again.md)
