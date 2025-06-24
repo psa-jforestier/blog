@@ -56,7 +56,7 @@ sudo newuser -aG sudo newuser
 --//
 ```
 Then restart the instance.
-The script is based on the "cloud-init" principle, which is supported by almost any Linux images provided by AWS. The enclosed script will be run **each time the instance is restarted**. 
+The script is inspired by https://repost.aws/knowledge-center/execute-user-data-ec2 , and is based on the "cloud-init" principle, which is supported by almost any Linux images provided by AWS. The enclosed script will be run **each time the instance is restarted**. 
 So each time the machine is rebooted, it will create a new user called "newuser", with password "123456". If the user alread exists, the password will be reset to this value. And also, this user will have a "sudo" capability.
 Do not try to reset password for cloud users like "ubuntu" or "ec2-user" because it may not work depening of the OS. Use a brand new created user name.
 
