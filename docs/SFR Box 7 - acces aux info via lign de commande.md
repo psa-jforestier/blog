@@ -13,6 +13,9 @@ Quelques gros points noirs a relever avec la box SFR :
 - pas de control parental : impossible de désactive le wifi pour certains équipements à des heures précises.
 - impossible, par défaut, de faire de la redirection de port pour qu'une machine du LAN soit accessible d'internet en ipv4. Cella provient de la mutualisation des adresses ipv4 sur le réseau SFR. Il y'a un message d'avertissement qui apparait dans la console web : "Les configurations IPv4 utilisateur peuvent ne pas fonctionner correctement en raison de l'architecture de routage IPv6 WAN actuelle.". Ce warning n'est pas clair, aucune info, aucune option pour chnager "l'architecture de routage IPv6". Il faut contacter le support technique, via l'appli RED et demander un demander un rollback en IPv4 full stack
 
+Quelques bug en vrac :
+- le nombre total d'octet transmis et reçus, visible dans la partie "WAN > Statistiques" est codé sur 32 bits. Cela signifie que si vous dépassez 4Go de trafic, le compteur est remis à zero.
+
 La box ne propose pas d'API standard pour accéder aux informations. Il y'a bien une "simulation" d'une vieille API issue des Neuf-box (https://lafibre.info/sfr-les-news/nb6vac-et-api/) mais elle n'est pas complete. Pour avoir accès à plus d'information sur la box, il faut passer par l'interface web, et donc faire un bon gros scrapping des pages.
 
 Voici un script python qui permet d'obtenir quelques informations de la box : https://gist.github.com/psa-jforestier/1f8e99b6be687c26d5e6473633ba62ab#file-rbox_status-py
