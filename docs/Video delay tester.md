@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This video is designed to help estimate the audio/video synchronization delay between a TV and an audio system such as an AV receiver, soundbar, bluetooth audio device, or home cinema system.
+This video is designed to help estimate the audio/video synchronization delay between a TV and an audio system such as an AV receiver, soundbar, bluetooth audio device, or home cinema system. 
+
+[files/av_sync_single_scale_30fps_60s.mkv](files/av_sync_single_scale_30fps_60s.mkv) | [files/av_sync_single_scale_60fps_60s.mkv](files/av_sync_single_scale_60fps_60s.mkv)
 
 The test provides:
 
